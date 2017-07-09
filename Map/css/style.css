@@ -1,0 +1,75 @@
+html,
+body
+{
+    font-family:Arial, sans-serif;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+input
+{
+    font-size:30px;
+}
+h1
+{
+    color:#e6e600;
+    width:100%;
+    text-align:center;
+}
+#page
+{
+    height:1000px;
+    width:100%;
+}
+#stv
+{
+    width:300px;
+    height:500px;
+}
+#view_error
+{
+    color:#7ec500;
+}
+#search
+{
+    width:100%;
+}
+.bgimage{
+    background-image:url("http://www.cheapairetickets.in/ckfinder/userfiles/images/Shillong,%20Meghalaya.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:95%;
+}
+.find
+{
+     background-color:#ffffff;
+    opacity:.4;
+    border:1px solid #000000;
+    border-radius:20px;
+    height:100%;
+    line-height:40px;
+    padding:10px 10px 30px 10px;
+    text-align:center;
+    width:75%;
+    color:#000000;
+}
+.start
+{
+    padding-bottom:32px;
+    background-color:#ff6666;
+}
+#header
+{
+    color:#0000ff;
+    background-color:#ff9900;
+}
+#Shillong
+{
+color:#191a1a;
+background-color:#da8b8b;
+ text-align:center;
+ font-family:sans-serif;
+}
+.list-group-item{
+    text-decoration-color:#000000;
+}

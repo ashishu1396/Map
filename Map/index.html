@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shillong tourism</title>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" class="start" >
+            <header class="col-xs-12 head">
+                <h1 class="h1 text-center title">Shillong...Scotland of the East </h1>
+            </header>
+        </div>
+        <div id="Shillong">Shillong, the capital of Meghalaya, is the home to numerous waterfalls. The exciting mountain peaks, crystal clear lakes, breathtakingly beautiful golf courses, museums and the zoo are the key reasons why people visit Shillong.
+            </div>
+        <div class="row bgimage">
+        <div class="col-xs-2"></div>
+            <div class="col-xs-8 find">
+                <form class="form-horizontal">
+                    <div class="input-group" id="search">
+	                <input id="demo" type="text"  name="demo" class="form-control input-lg search" placeholder="Search any place to visit in Shillong" data-bind="textInput: find_location">
+                    <span class="input-group-addon search">Find</span>
+	            </div>
+                </form>
+                <div class="desc">
+	            <ul data-bind="foreach: list_of_places">
+                        <h6>
+		            <li class="list-group-item" data-bind="text: heading, click: $parent.select"></li>
+                        </h6>
+	            </ul>
+	        </div>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <div class="col-xs-12 map" id="page"></div>
+    </div>
+    <script src="js/lib/jquery-3.1.1.min.js"></script>
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyBtgYQZYyDM887II9JMxnhjeEiEB-RqJck&v=3&callback=data.Map_initialise"
+    onerror="err_page()">
+    </script>
+</body>
+</html>
